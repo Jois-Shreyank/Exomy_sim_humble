@@ -11,7 +11,7 @@ The software is supposed to run on a more powerful machine than the Raspberry Pi
 It was tested on a laptop with Ubuntu 20.04. 
 ## How to run
  
-- Clone this repository `git clone https://github.com/Jois-Shreyank/Exomy_sim_humble.git
+- Clone this repository `git clone https://github.com/Jois-Shreyank/Exomy_sim_humble.git`
 - To allow programs being opened from within the docker container run `xhost +local:docker`
 - Change to the folder `ExoMy_Model/docker`
 - Start the Docker container with `docker-compose run --name exomy_sim_humble exomy_sim_humble`
