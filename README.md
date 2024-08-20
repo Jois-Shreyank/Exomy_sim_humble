@@ -1,5 +1,5 @@
-# ExoMy - Model Repository
-*Disclaimer: This model and the simulation is not actively developed anymore. If you want to contribute to the project, contact us with your plans [Discord](https://discord.gg/gZk62gg).*
+# ExoMy - Simulation Repository
+*Disclaimer: This repository is derived from the two Exomy repositories for the base software and the simulation by ESA (https://github.com/esa-prl)*
 
 This repository contains a URDF representation of ExoMy, that can be used in the visualization tool rviz2 and the simulation environment Gazebo.
 
