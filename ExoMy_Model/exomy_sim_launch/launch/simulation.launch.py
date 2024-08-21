@@ -10,7 +10,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     # Get paths to config files
     sim_config = os.path.join(get_package_share_directory('exomy_sim'),'rviz/simulation.rviz')
-    world = os.path.join(get_package_share_directory('exomy_sim'), 'worlds/mars_yard.world')
+    world = os.path.join(get_package_share_directory('exomy_sim'), 'worlds/office_env_large.world')
     ekf_config = os.path.join(get_package_share_directory('exomy_sim'), 'config/ekf.yaml')
     urdf_file = os.path.join(get_package_share_directory('exomy_sim'),'models/exomy_model/exomy_model.urdf')
     # Some packages require the path to the urdf file, others require the opened file:
@@ -98,7 +98,7 @@ def generate_launch_description():
         namespace='',
         arguments=['-entity',
                    'exomy',
-                   '-x', '1', '-y', '1', '-z', '0.05',
+                   '-x', '-1', '-y', '-1', '-z', '0.055',
                    '-file', urdf_file,
                    '-reference_frame', 'world']
     )
